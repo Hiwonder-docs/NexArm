@@ -4,11 +4,11 @@
    contain the root `toctree` directive.
 
 ===========
-NexArm
+ESP Version
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: HX-10HM
+   :caption: ESP Version
 
    docs/NexArm Tutorial.md
