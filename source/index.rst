@@ -4,11 +4,11 @@
    contain the root `toctree` directive.
 
 ===========
-ESP Version
+ROS Version
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: ESP Version
+   :caption: ROS Version
 
    docs/NexArm Tutorial.md
