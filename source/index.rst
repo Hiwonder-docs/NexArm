@@ -9,6 +9,6 @@ NexArm
 
 .. toctree::
    :maxdepth: 2
-   :caption: HX-10HM
+   :caption: NexArm
 
    docs/NexArm Tutorial.md
