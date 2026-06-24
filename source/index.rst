@@ -11,4 +11,4 @@ NexArm
    :maxdepth: 2
    :caption: NexArm
 
-   docs/NexArm Tutorial.md
+   docs/1_NexArm_Tutorial.md
