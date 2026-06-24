@@ -12,3 +12,4 @@ NexArm
    :caption: NexArm
 
    docs/1_NexArm_Tutorial.md
+   Download <>
