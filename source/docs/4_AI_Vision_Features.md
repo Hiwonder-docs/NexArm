@@ -2,7 +2,7 @@
 
 
 >[!note]
->**Before starting the AI vision features, the robotic arm must undergo calibration for visual offset. The detailed steps can be found in the section [1.4.2.5 AI Vision Functions](https://drive.google.com/drive/folders/1eIiAcGtAonvs-HQrHgQsetHtYUHywa4g?usp=sharing) in 1. Tutorials\1. Quick Started\01 Quick Started.pdf within the product materials.**
+>**Before starting the AI vision features, the robotic arm must undergo calibration for visual offset. The detailed steps can be found in the section [1.4.2.5 AI Vision Functions](https://wiki.hiwonder.com/projects/NexArm/en/esp32-version/docs/1_Getting_Started_NexArm.html#ai-vision-functions) in 1. Tutorials\1. Quick Started\01 Quick Started.pdf within the product materials.**
 
 <p id ="p4-1"></p>
 
@@ -14,7 +14,7 @@ Before executing individual control functions, the corresponding control program
 
 <img class="common_img" src="../_static/media/chapter_1/section_3/media/image29.png" style="width:600px">
 
-2. Open the corresponding **.ino** program file under the [02 Program Source Code](https://drive.google.com/drive/folders/1rSYk3OyD2XI2Fm2lI-TymMYmBzbX3NGF?usp=sharing) directory within the same path as this document.
+2. Open the corresponding **.ino** program file under the [02 Program Source Code](https://drive.google.com/drive/folders/1mUTpDvGJBDb1hg2vpuVm-ALO0PAXDWzd?usp=sharing) directory within the same path as this document.
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image3.png" style="width:300px"/>
 
@@ -86,9 +86,9 @@ During actual operation, power on the device normally and wait for initializatio
 
 ### 4.3.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces modules including system tasks, global commands, robotic arm control, USB serial port, parameter storage, color gripping, AT32 OTA, and the file system. This file organizes multiple low-level modules into a complete color sorting operation workflow. Specifically, `Global.h` provides command numbers, `Robot_Arm.h` provides the robotic arm control object, `usb_ctrl.h` handles PC serial communication, `ColorGrabber.h` manages the gripping state machine after color recognition, and `AT32_OTA.h` is responsible for checking and upgrading the underlying AT32 firmware.
+1. The beginning of the file introduces modules including system tasks, global commands, robotic arm control, USB serial port, parameter storage, color gripping, AT32 OTA, and the file system. This file organizes multiple low-level modules into a complete color sorting operation workflow. Specifically, **Global.h** provides command numbers, **Robot_Arm.h** provides the robotic arm control object, **usb_ctrl.h** handles PC serial communication, **ColorGrabber.h** manages the gripping state machine after color recognition, and **AT32_OTA.h** is responsible for checking and upgrading the underlying AT32 firmware.
 
 ```cpp
 #include "system_task_handle.h"
@@ -590,9 +590,9 @@ During actual use, power on the device normally and wait for initialization to e
 
 ### 4.4.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the color tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, color tracking state machine, AT32 OTA, and the file system. Different from the color sorting project, `ColorTrackerRot.h` is used here. This indicates that the core task of this project is not gripping blocks, but enabling the robotic arm to continuously adjust its pose and track the color target.
+1. The beginning of the file introduces the core modules required for the color tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, color tracking state machine, AT32 OTA, and the file system. Different from the color sorting project, **ColorTrackerRot.h** is used here. This indicates that the core task of this project is not gripping blocks, but enabling the robotic arm to continuously adjust its pose and track the color target.
 
 ```cpp
 #include "system_task_handle.h"
@@ -1041,9 +1041,9 @@ For standard operation, power is applied to the hardware normally to allow the i
 
 ### 4.5.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The top of the file includes header files for core modules required by the face tracking project, such as system task interfaces, global commands, robotic arm control, USB serial communication, parameter storage, the face tracking state machine, the AT32 OTA mechanism, and the file system. The key component is `FaceTracker.h`, which manages communication with the vision module and drives the face tracking state machine. In addition, `Robot_Arm.h` handles motion control, and `usb_ctrl.h` manages serial communication with the host computer.
+1. The top of the file includes header files for core modules required by the face tracking project, such as system task interfaces, global commands, robotic arm control, USB serial communication, parameter storage, the face tracking state machine, the AT32 OTA mechanism, and the file system. The key component is **FaceTracker.h**, which manages communication with the vision module and drives the face tracking state machine. In addition, **Robot_Arm.h** handles motion control, and **usb_ctrl.h** manages serial communication with the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -1480,9 +1480,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.6.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the single-object tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, single-object tracking state machine, AT32 OTA, and the file system. The most critical component here is `ObjectTrack.h`, which is responsible for communicating with the K230 vision side and continuously tracking a target after it is manually selected. Additionally, `Robot_Arm.h` manages robotic arm actions, and `usb_ctrl.h` is responsible for receiving serial port commands from the host computer.
+1. The beginning of the file introduces the core modules required for the single-object tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, single-object tracking state machine, AT32 OTA, and the file system. The most critical component here is **ObjectTrack.h**, which is responsible for communicating with the K230 vision side and continuously tracking a target after it is manually selected. Additionally, **Robot_Arm.h** manages robotic arm actions, and **usb_ctrl.h** is responsible for receiving serial port commands from the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -1864,9 +1864,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.7.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the gesture recognition project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, gesture recognition state machine, AT32 OTA, and the file system. The most critical component here is `GestureTracker.h`, which is responsible for communicating with the K230 vision side and obtaining gesture recognition results. Additionally, `Robot_Arm.h` manages the robotic arm and motherboard peripherals, and `usb_ctrl.h` handles the serial port command entry point of the host computer.
+1. The beginning of the file introduces the core modules required for the gesture recognition project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, gesture recognition state machine, AT32 OTA, and the file system. The most critical component here is **GestureTracker.h**, which is responsible for communicating with the K230 vision side and obtaining gesture recognition results. Additionally, **Robot_Arm.h** manages the robotic arm and motherboard peripherals, and **usb_ctrl.h** handles the serial port command entry point of the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -2343,9 +2343,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.8.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the AprilTag tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag tracking state machine, AT32 OTA, and the file system. The most critical component here is `AprilTagTracker.h`, which is responsible for communicating with the K230 vision side and driving the tracking based on the AprilTag position. Additionally, `Robot_Arm.h` manages the robotic arm and motherboard peripherals, and `usb_ctrl.h` handles the serial port command entry point of the host computer.
+1. The beginning of the file introduces the core modules required for the AprilTag tracking project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag tracking state machine, AT32 OTA, and the file system. The most critical component here is **AprilTagTracker.h**, which is responsible for communicating with the K230 vision side and driving the tracking based on the AprilTag position. Additionally, **Robot_Arm.h** manages the robotic arm and motherboard peripherals, and **usb_ctrl.h** handles the serial port command entry point of the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -2781,9 +2781,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.9.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the AprilTag gripping project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag gripping state machine, AT32 OTA, and the file system. The most critical component here is `AprilTagGrabber.h`, which is responsible for communicating with the K230 vision side and executing searching, alignment, descending, gripping, lifting, and placing routines based on the identified AprilTag position. Additionally, `Robot_Arm.h` manages the robotic arm and motherboard peripherals, and `usb_ctrl.h` handles the serial port command entry point of the host computer.
+1. The beginning of the file introduces the core modules required for the AprilTag gripping project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag gripping state machine, AT32 OTA, and the file system. The most critical component here is **AprilTagGrabber.h**, which is responsible for communicating with the K230 vision side and executing searching, alignment, descending, gripping, lifting, and placing routines based on the identified AprilTag position. Additionally, **Robot_Arm.h** manages the robotic arm and motherboard peripherals, and **usb_ctrl.h** handles the serial port command entry point of the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -3166,9 +3166,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.10.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the AprilTag palletizing project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag palletizing state machine, AT32 OTA, and the file system. The most critical component here is `AprilTagPalletizer.h`, which is responsible for communicating with the K230 vision side and executing searching, alignment, gripping, lifting, placing, and palletizing slot advancement routines based on the identified AprilTag position. Additionally, `Robot_Arm.h` manages the robotic arm and motherboard peripherals, and `usb_ctrl.h` handles the serial port command entry point of the host computer.
+1. The beginning of the file introduces the core modules required for the AprilTag palletizing project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, AprilTag palletizing state machine, AT32 OTA, and the file system. The most critical component here is **AprilTagPalletizer.h**, which is responsible for communicating with the K230 vision side and executing searching, alignment, gripping, lifting, placing, and palletizing slot advancement routines based on the identified AprilTag position. Additionally, **Robot_Arm.h** manages the robotic arm and motherboard peripherals, and **usb_ctrl.h** handles the serial port command entry point of the host computer.
 
 ```cpp
 #include "system_task_handle.h"
@@ -3617,9 +3617,9 @@ During actual operation, the device is first powered on normally to await the co
 
 ### 4.11.5 Program Analysis
 
-**`system_task_handle.cpp`** 
+**system_task_handle.cpp** 
 
-1. The beginning of the file introduces the core modules required for the waste sorting project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, waste sorting gripping state machine, AT32 OTA, and the file system. The most critical component here is `GarbageGrabber.h`, which is responsible for communicating with the K230 vision side and executing searching, alignment, descending, gripping, lifting, and sorted placing routines based on the identified waste target. Additionally, `Robot_Arm.h` manages the robotic arm and motherboard peripherals, and `usb_ctrl.h` handles the serial port command entry point of the host computer.
+1. The beginning of the file introduces the core modules required for the waste-sorting project, including the system task interface, global commands, robotic arm control, USB serial port control, parameter storage, waste-sorting gripping state machine, AT32 OTA, and the file system. The most critical component here is **GarbageGrabber.h**, which is responsible for communicating with the K230 vision side and executing search, alignment, descending, gripping, lifting, and sorted-placement routines based on the identified waste target. Additionally, **Robot_Arm.h** manages the robotic arm and motherboard peripherals, and **usb_ctrl.h** handles the serial port command entry point of the host computer.
 
 ```cpp
 #include "system_task_handle.h"

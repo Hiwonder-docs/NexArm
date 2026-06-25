@@ -85,11 +85,11 @@ Execute various tasks and follow instructions accurately.
 8. Select **No Memory** for the memory type and **DeepSeek V3.1 (Powerful)** for the language model. Advanced settings allow adjustment of more detailed operating parameters, but default settings are retained here. Click **Save** to complete.
 
 >[!note]
->**If the account has not completed developer authentication on the XiaoZhi AI platform, selection is limited to lower-performance models such as XiaoZhi Lite by default. To utilize higher-performance models like Qwen3 235B or DeepSeek V3.1, complete the authentication on the XiaoZhi AI platform according to section [5.3.3 Platform Developer Authentication](#p5-3-3), and then reselect the model here.**
+>**If the account has not completed developer authentication on the XiaoZhi AI platform, selection is limited to lower-performance models such as XiaoZhi Lite by default. To utilize higher-performance models like Qwen3 235B or DeepSeek V3.1, complete the authentication on the XiaoZhi AI platform according to section [5.2.4 Platform Developer Authentication](#p5-2-4), and then reselect the model here.**
 
 <img src="../_static/media/chapter_4/section_1/media2/image18.png"     class="common_img"/>
 
-8. Upon successful saving, return to the upper-level interface and click **Add Device**.
+9. Upon successful saving, return to the upper-level interface and click **Add Device**.
 
 <img src="../_static/media/chapter_4/section_1/media2/image19.png"     class="common_img"/>
 
@@ -131,7 +131,7 @@ Execute various tasks and follow instructions accurately.
 
 <img src="../_static/media/chapter_4/section_8/media/image23.png"     class="common_img"/>
 
-<p id ="p5-3-3"></p>
+<p id ="p5-2-4"></p>
 
 ### 5.2.4 Platform Developer Authentication
 

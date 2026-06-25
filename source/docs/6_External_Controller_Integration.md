@@ -1,6 +1,6 @@
 # 6. External Controller Integration
 
-Network and serial control for external controllers follow the same communication protocol. This chapter uses coordinate control commands as an illustrative example. For additional control commands, refer to section **3.3 Serial Protocol Analysis** within Chapter [3. Motion Control](https://drive.google.com/drive/folders/1R_xH7lyDZiHYDgtC-yAd-mqXai1nw3Ia?usp=sharing). For those unfamiliar with Raspberry Pi and Jetson, additional guidance is available in the [03 Remote Connection Guide](https://drive.google.com/drive/folders/1ROk-6nfMit6FR911SQYhXk55jpKGIoAO?usp=sharing) folder located in the same directory as this document.
+Network and serial control for external controllers follow the same communication protocol. This chapter uses coordinate control commands as an illustrative example. For additional control commands, refer to section **3.3 Serial Protocol Analysis** within Chapter [3. Motion Control](https://wiki.hiwonder.com/projects/NexArm/en/esp32-version/docs/3_Motion_Control.html#serial-protocol-analysis). For those unfamiliar with Raspberry Pi and Jetson, additional guidance is available in the [03 Remote Connection Guide](https://drive.google.com/drive/folders/1ROk-6nfMit6FR911SQYhXk55jpKGIoAO?usp=sharing) folder located in the same directory as this document.
 
 ## 6.1 Raspberry Pi Network Control of the Robotic Arm
 

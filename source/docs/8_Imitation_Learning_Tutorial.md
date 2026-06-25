@@ -55,7 +55,7 @@ The **NexArm robotic arm** represents a significant development direction in the
 
 [Official Miniconda Installation Packages](https://repo.anaconda.com/miniconda/)
 
-Locate **Miniconda3-py311_25.7.0-2-Windows-x86_64.exe** and download the package to the computer. Alternatively, the pre-packaged software can be accessed directly via the link: [2. Software & Source Code\Software Tools](https://drive.google.com/drive/folders/1k7HOUeCLVRAUzePkTl3R8zehp8D6KZQq?usp=sharing).
+Locate **Miniconda3-py311_25.7.0-2-Windows-x86_64.exe** and download the package to the computer. Alternatively, the pre-packaged software can be accessed directly via the link: [2. Softwares\9. Imitation Learning Tool\01 Software & Tool](https://drive.google.com/drive/folders/1k7HOUeCLVRAUzePkTl3R8zehp8D6KZQq?usp=sharing).
 
 <img src="../_static/media/chapter_8/section_2/image_1.png" class="common_img" style="width:400px;"/>
 
@@ -133,7 +133,7 @@ Press **Enter** to continue.
 
 <img src="../_static/media/chapter_8/section_2/image_47.png" class="common_img" style="width:700px;"/>
 
-Type **yes** and press **Enter** to continue.
+Type `yes` and press **Enter** to continue.
 
 <img src="../_static/media/chapter_8/section_2/image_48.png" class="common_img" style="width:600px;"/>
 
@@ -141,7 +141,7 @@ The default installation path is **/home/ubuntu/miniconda3**. If changing the di
 
 <img src="../_static/media/chapter_8/section_2/image_49.png" class="common_img" style="width:600px;"/>
 
-Type **yes** and press **Enter** to complete the installation.
+Type `yes` and press **Enter** to complete the installation.
 
 <img src="../_static/media/chapter_8/section_2/image_50.png" class="common_img" style="width:700px;"/>
 

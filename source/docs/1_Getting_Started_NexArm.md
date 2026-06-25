@@ -54,7 +54,7 @@ For Android devices, install the **Wonderbot-V2.3.4.apk** from [5. NexArm App In
 
 * **Slider Control Mode**
 
-  In Slider Control mode, each NexArm servo can be controlled independently by dragging the sliders on the right side. This mode has two main areas, marked as ① the menu bar and ② the control area.
+  In **Slider Control** mode, each NexArm servo can be controlled independently by dragging the sliders on the right side. This mode has two main areas, marked as ① the menu bar and ② the control area.
 
   <img class="common_img" src="../_static/media/chapter_1/section_3/media/image5.png" style="width:600px">
 
@@ -66,7 +66,7 @@ For Android devices, install the **Wonderbot-V2.3.4.apk** from [5. NexArm App In
   | <img src="../_static/media/chapter_1/section_1/media/image15.png" style="width:100px" /> | Display the current NexArm supply voltage in real time. |
   | <img src="../_static/media/chapter_1/section_1/media/image11.png" style="width:100px" /> | Enter the chassis control interface. A mobile chassis is required. |
   | <img src="../_static/media/chapter_1/section_1/media/image12.png" style="width:100px" /> | Bluetooth connection. The icon flashes when disconnected and stays on after connection. |
-  | <img src="../_static/media/chapter_1/section_1/media/image13.png" style="width:100px" /> | `ESP-NOW` mode configuration. A synchronizer is required. |
+  | <img src="../_static/media/chapter_1/section_1/media/image13.png" style="width:100px" /> | ESP-NOW mode configuration. A synchronizer is required. |
   | <img src="../_static/media/chapter_1/section_1/media/image14.png" style="width:100px" /> | More information. |
 
   2. Control Area
@@ -80,7 +80,7 @@ For Android devices, install the **Wonderbot-V2.3.4.apk** from [5. NexArm App In
 
 * **Coordinate Control Mode**
 
-  In Coordinate Control mode, NexArm can perform inverse kinematics motion by adjusting the **X, Y, Z** coordinate buttons and the **Roll** and **Pitch** angle sliders. The **Clamp** slider controls the opening and closing of the gripper. This mode has two main areas, marked as ① the menu bar and ② the control area.
+  In **Coordinate Control** mode, NexArm can perform inverse kinematics motion by adjusting the **X, Y, Z** coordinate buttons and the **Roll** and **Pitch** angle sliders. The **Clamp** slider controls the opening and closing of the gripper. This mode has two main areas, marked as ① the menu bar and ② the control area.
 
   <img class="common_img" src="../_static/media/chapter_1/section_3/media/image8.png" style="width:600px">
 
@@ -122,7 +122,7 @@ For Android devices, install the **Wonderbot-V2.3.4.apk** from [5. NexArm App In
 
    <img class="common_img" src="../_static/media/chapter_1/section_3/media/image10.png" style="width:600px">
 
-4. After the information is entered, tap **OK**. The Add Action Group window closes, and the <img class="inline-icon" src="../_static/media/chapter_1/section_2/media/image20.png" style="width:100px"> pop-up appears. Tap the action group button again. The action group named 111 is now shown in the list. Tap it to run the action group with the corresponding ID.
+4. After the information is entered, tap **OK**. The **Add Action** window closes, and the <img class="inline-icon" src="../_static/media/chapter_1/section_2/media/image20.png" style="width:150px"> pop-up appears. Tap the action group button again. The action group named 111 is now shown in the list. Tap it to run the action group with the corresponding ID.
 
    <img class="common_img" src="../_static/media/chapter_1/section_3/media/image11.png" style="width:600px">
 
@@ -212,7 +212,7 @@ NexArm supports a **PS3 protocol-compatible wireless controller** for wireless c
 
 <img class="common_img" src="../_static/media/chapter_1/section_1/media/image44.png" style="width:100px">
 
-2. Click **Install**. After the installation is complete, a driver installation success message will appear.
+2. Click **INSTALL**. After the installation is complete, a driver installation success message will appear.
 
 <img class="common_img" src="../_static/media/chapter_1/section_3/media/image14.png" style="width:600px">
 
@@ -339,7 +339,7 @@ The host software communicates with NexArm through six control modes and system 
 
 > [!NOTE]
 >
-> **AI vision functions require the K230 vision module. Before enabling AI vision functions, the latest image must be flashed to the `K230` vision module. The image is located under [2. Softwares/6. WonderMK K230 Vision Module Manual & Tool/04 K230 Vision Module Image](https://drive.google.com/drive/folders/1r-JvxzbMGYou2CaQhbh6YW0J7xWTXizZ?usp=sharing). For the image flashing procedure, refer to [2. Softwares/6. WonderMK K230 Vision Module Manual & Tool/01 K230 Vision Module Manual/1. Quick Start.pdf](https://drive.google.com/drive/folders/1iFLA4B9fQxmBXdpQ2GSa37rS2Mca8WEL?usp=sharing).**
+> **AI vision functions require the K230 vision module. Before enabling AI vision functions, the latest image must be flashed to the K230 vision module. The image is located under [2. Softwares/6. WonderMK K230 Vision Module Manual & Tool/04 K230 Vision Module Image](https://drive.google.com/drive/folders/1r-JvxzbMGYou2CaQhbh6YW0J7xWTXizZ?usp=sharing). For the image flashing procedure, refer to [2. Softwares/6. WonderMK K230 Vision Module Manual & Tool/01 K230 Vision Module Manual/1. Quick Start.pdf](https://drive.google.com/drive/folders/1iFLA4B9fQxmBXdpQ2GSa37rS2Mca8WEL?usp=sharing).**
 
 * **Vision Offset Calibration**
 
@@ -351,7 +351,7 @@ The host software communicates with NexArm through six control modes and system 
 
 <img src="../_static/media/chapter_1/section_3/media/image36.png" style="width:1000px" class="common_img" />
 
-2. Move the AprilTag card according to the debugging information until the `System Log` prints **Perfectly aligned to center!**, as shown below.
+2. Move the AprilTag card according to the debugging information until the **System Log** prints **Perfectly aligned to center!**, as shown below.
 
 <img src="../_static/media/chapter_1/section_3/media/image37.png" style="width:800px" class="common_img" />
 
@@ -456,7 +456,7 @@ This function works similarly to AprilTag Automatic Grasping. After **Start** is
 
 <img src="../_static/media/chapter_1/section_3/media/image45.png" style="width:600px" class="common_img" />
 
-4. When editing a multi-frame action group, select an action group number and click **Delete** to delete the corresponding frame. Click **Clear** to delete and clear all actions. After an action is selected, click **Move Up** or **Move Down** to adjust the position of that frame. Click **Save (.d6a)** to save the current action group as a `.d6a` file. Click **Load** to parse a `.d6a` file into an action group and import it into NexArm.
+4. When editing a multi-frame action group, select an action group number and click **Delete** to delete the corresponding frame. Click **Clear** to delete and clear all actions. After an action is selected, click **Move Up** or **Move Down** to adjust the position of that frame. Click **Save (.d6a)** to save the current action group as a **.d6a** file. Click **Load** to parse a **.d6a** file into an action group and import it into NexArm.
 
 <img src="../_static/media/chapter_1/section_3/media/image46.png" style="width:600px" class="common_img" />
 

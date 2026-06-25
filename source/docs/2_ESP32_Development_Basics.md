@@ -61,7 +61,7 @@ The main interface of Arduino IDE is shown in the figure below, which can be div
 | <img class="common_img" src="../_static/media/chapter_2/section_1/media/image13.png"  /> | Verify. Checks if a program is written correctly and compiles the project if there are no errors. |
 | <img class="common_img" src="../_static/media/chapter_2/section_1/media/image14.png"  /> | Upload. Uploads the program to the Arduino controller.       |
 | <img class="common_img" src="../_static/media/chapter_2/section_1/media/image15.png"  /> | Debug. Real-time debugging is supported for some development boards via Arduino IDE. |
-| <img class="common_img" src="../_static/media/chapter_2/section_1/media/image67.png"  /> | Select Board. Allows selecting different development boards for project development. |
+| <img class="common_img" src="../_static/media/chapter_2/section_1/media/image67.png" style="width:250px" /> | Select Board. Allows selecting different development boards for project development. |
 | <img class="common_img" src="../_static/media/chapter_2/section_1/media/image17.png"  /> | Serial Plotter. Plots the data printed to the Arduino serial port into a chart. |
 | <img class="common_img" src="../_static/media/chapter_2/section_1/media/image18.png"  /> | Serial Monitor. Prints serial port information.              |
 
@@ -140,7 +140,7 @@ Subsequent programs require the official libraries **PS3 Controller Host**, **Mu
 
 <img class="common_img" src="../_static/media/chapter_2/section_5/media/image33.png" style="width:500px"/>
 
-6. After successful compilation, click the <img  src="../_static/media/chapter_2/section_3/media/image8.png"   class="inline-icon" /> button to upload the program to the ESP32 core board.
+6. After successful compilation, click the <img  src="../_static/media/chapter_2/section_3/media/image8.png"   class="inline-icon" /> button to upload the program to the ESP32 controller.
 
 <img class="common_img" src="../_static/media/chapter_2/section_5/media/image35.png" style="width:800px"/>
 
