@@ -112,11 +112,11 @@ For Android devices, install the **Wonderbot-V2.3.4.apk** from [5. NexArm App In
 
 2. After the button is tapped, the **Action Group** screen appears. Tap **Add** to add an action group.
 
-   <img class="common_img" src="../_static/media/chapter_1/section_3/media/image9.png" style="width:600px">
+<img class="common_img" src="../_static/media/chapter_1/section_3/media/image9.png" style="width:600px">
 
-   > [!NOTE]
-   >
-   > **The action group calling function requires the action group ID to be confirmed in the host software in advance, and the action group with the corresponding ID must be downloaded to NexArm. Otherwise, this function cannot be used. For the download procedure, refer to [1.5 Action Group Editing and Execution](#p1-5) in this document.**
+> [!NOTE]
+>
+> **The action group calling function requires the action group ID to be confirmed in the host software in advance, and the action group with the corresponding ID must be downloaded to NexArm. Otherwise, this function cannot be used. For the download procedure, refer to [1.5 Action Group Editing and Execution](#p1-5) in this document.**
 
 3. Action group 0 has been downloaded to NexArm from the host software in advance. In this example, the action group is named 111, and the action group ID is set to `0`. After the settings are complete, tap **OK**.
 

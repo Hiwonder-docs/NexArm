@@ -3,7 +3,9 @@
 <p id ="p7-1"></p>
 
 ## 7.1 Program Upload Instructions - Must Read
->[!note]
+
+> [!NOTE]
+>
 >**Assembly tutorials for NexArm matching peripherals are available in the link [03 Assembly Videos](https://drive.google.com/drive/folders/1-1ykJr405S0vIeFQv9dn_m7zlzzDg9rA?usp=sharing).**
 
 1. Connect NexArm to the computer using a Type-C data cable.
@@ -22,7 +24,7 @@
 
 <img class="common_img" src="../_static/media/chapter_7/section_1/media/image4.png" style="width:700px"/>
 
-5. Click the compile button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
+5. Click the compile button <img  src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img  src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
 
 <img class="common_img" src="../_static/media/chapter_7/section_1/media/image5.png" style="width:700px"/>
 

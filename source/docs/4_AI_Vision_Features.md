@@ -1,7 +1,7 @@
 # 4. AI Vision Features
 
-
->[!note]
+> [!NOTE]
+>
 >**Before starting the AI vision features, the robotic arm must undergo calibration for visual offset. The detailed steps can be found in the section [1.4.2.5 AI Vision Functions](https://wiki.hiwonder.com/projects/NexArm/en/esp32-version/docs/1_Getting_Started_NexArm.html#ai-vision-functions) in 1. Tutorials\1. Quick Started\01 Quick Started.pdf within the product materials.**
 
 <p id ="p4-1"></p>
@@ -26,7 +26,7 @@ Before executing individual control functions, the corresponding control program
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image5.png" style="width:700px"/>
 
-5. Click the compile button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
+5. Click the compile button <img src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image6.png" style="width:700px"/>
 

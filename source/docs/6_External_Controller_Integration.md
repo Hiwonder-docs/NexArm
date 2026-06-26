@@ -36,7 +36,7 @@ Before executing external controller operations, the corresponding control progr
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image5.png" style="width:700px"/>
 
-5. Click the compile button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
+5. Click the compile button <img  src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image6.png" style="width:700px"/>
 
@@ -330,7 +330,7 @@ Before executing external controller operations, the corresponding control progr
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image5.png" style="width:700px"/>
 
-5. Click the compile button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img class="common_img" src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
+5. Click the compile button <img  src="../_static/media/chapter_3/section_4/media/image7.png" style="width:50px"/>first, and then click the upload button <img src="../_static/media/chapter_3/section_4/media/image8.png" style="width:50px"/>. The output box at the bottom of the software, displaying the interface below, indicates that the program has been downloaded successfully:
 
 <img class="common_img" src="../_static/media/chapter_3/section_4/media/image6.png" style="width:700px"/>
 
