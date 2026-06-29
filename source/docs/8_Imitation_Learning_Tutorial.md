@@ -83,30 +83,6 @@ Locate the downloaded **Miniconda** installation package and double-click to ins
 
 <img src="../_static/media/chapter_8/section_2/image_10.png" class="common_img" style="width:600px;"/>
 
-Press **Win + R**, type `cmd`, and open the terminal.
-
-<img src="../_static/media/chapter_8/section_2/image_11.png" class="common_img" style="width:500px;"/>
-
-Enter the command in the terminal to generate **.condarc**.
-
-```bash
-conda config --set show_channel_urls yes
-```
-
-<img src="../_static/media/chapter_8/section_2/image_13.png" class="common_img" style="width:600px;"/>
-
-The **.condarc** file is typically located in the user directory, such as **C:\Users\Admin**. Open **.condarc** and replace its content as shown below:
-
-<img src="../_static/media/chapter_8/section_2/image_14.png" class="common_img" style="width:600px;"/>
-
-Run the command to clear the index cache.
-
-```bash
-conda clean -i
-```
-
-<img src="../_static/media/chapter_8/section_2/image_15.png" class="common_img" style="width:600px;"/>
-
 (2) Ubuntu Installation
 
 ① Download the **Miniconda** Package
@@ -166,30 +142,6 @@ conda config --set auto_activate false
 ```
 
 <img src="../_static/media/chapter_8/section_2/image_53.png" class="common_img" style="width:800px;"/>
-
-Enter the command in the terminal to generate **.condarc**.
-
-```bash
-conda config --set show_channel_urls yes
-```
-
-<img src="../_static/media/chapter_8/section_2/image_30.png" class="common_img" style="width:700px;"/>
-
-The **.condarc** file is typically located in the user directory, such as **/home/ubuntu**. Open **.condarc** using the `gedit` tool and replace its content as shown below.
-
-```bash
-gedit .condarc
-```
-
-<img src="../_static/media/chapter_8/section_2/image_31.png" class="common_img" style="width:600px;"/>
-
-Run the command to clear the index cache, type `y`, and press **Enter**.
-
-```bash
-conda clean -i
-```
-
-<img src="../_static/media/chapter_8/section_2/image_32.png" class="common_img" style="width:600px;"/>
 
 ### 8.2.3 Configuring the Virtual Environment
 
