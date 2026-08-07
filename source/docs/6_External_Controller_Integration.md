@@ -315,7 +315,7 @@ Before executing external controller operations, the corresponding control progr
 
 1. Connect the NexArm to a computer using a Type-C data cable.
 
-   <img class="common_img" src="../_static/media/chapter_1/section_1/media/image97.png" style="width:400px">
+   <img class="common_img" src="../_static/media/chapter_1/section_3/media/image29.png" style="width:400px">
 
 2. Open the corresponding **.ino** file located in the [1. Tutorials/6. External Controller Integration/02 Source Code/Nex_Arm.zip](https://drive.google.com/drive/folders/1ceR5kBYC8Vb9iD4xWvZ9rEZmPd5lT5Zj?usp=sharing) folder.
 
