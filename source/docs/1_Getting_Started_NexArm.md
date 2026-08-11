@@ -1,10 +1,5 @@
 # 1. Getting Started
 
-[toc]
-
-
-
-
 ## 1.1 Product Overview
 
 <img class="common_img" src="../_static/media/chapter_1/section_2/media/image22.png" style="width:600px">
@@ -262,9 +257,9 @@ As shown in the image below, connect the 12.5 V power adapter to the robotic arm
 
    <img class="common_img" src="../_static/media/chapter_1/section_2/media/image47.png" style="width:600px">
 
-   > [!NOTE]
-   >
-   > **The action group calling function requires the action group ID to be confirmed in the host software in advance, and the action group with the corresponding ID must be downloaded to NexArm. Otherwise, this function cannot be used. For the action group download procedure, refer to [1.6 Action Group Editing and Execution](#action-group-editing-and-execution) in this document.**
+> [!NOTE]
+>
+> **The action group calling function requires the action group ID to be confirmed in the host software in advance, and the action group with the corresponding ID must be downloaded to NexArm. Otherwise, this function cannot be used. For the action group download procedure, refer to [1.6 Action Group Editing and Execution](#action-group-editing-and-execution) in this document.**
 
 3. Action group 0 is downloaded to NexArm from the host software in advance. In this example, the action group is named **111**, and the action group ID is set to **0**. After the settings are complete, tap **OK**.
 
@@ -425,7 +420,7 @@ The NexArm K230 vision module comes pre-flashed with the latest dedicated factor
 
 > [!NOTE]
 >
-> **Vision offset calibration must be performed before enabling AI vision features. The AprilTag cards required for vision offset calibration are located under [1. Tutorials\1. Getting Started\04 Appendix\06 E-Card Collection\02 AprilTag Card Collection](https://drive.google.com/drive/folders/1m1iCqutwfTcvbTeYInPzo406pFIBo0Gc?usp=sharing) in the same directory.**
+> **Vision offset calibration must be performed before enabling AI vision features. The AprilTag cards required for vision offset calibration are located under [1. Tutorials\1. Getting Started\04 Appendix\06 E-Card Collection\02 AprilTag Card Collection](https://drive.google.com/drive/folders/1DYXTwGP8i_ONuzCFkW93MtWknp-X-9IQ) in the same directory.**
 
 1. Place the AprilTag card on the desktop and click **Start Align**. The robotic arm will move to the calibration posture, and the **System Log** will print AprilTag debugging information.
 
